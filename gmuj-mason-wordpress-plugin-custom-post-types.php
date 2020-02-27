@@ -1,16 +1,10 @@
 <?php
 
 /**
- * Plugin Name:       GMUJ WordPress Custom Post Types
+ * Plugin Name:       Mason WordPress: Custom Post Types
  * Plugin URI:        https://github.com/jmacario-gmu/gmuj-mason-wordpress-plugin-custom-post-types
  * Description:       Mason WordPress plugin which implements common custom post types.
- * Version:           1.0.0
- * Author:            Jan Macario
- * Author URI:        
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       gmuj-mason-wordpress-plugin-custom-post-types
- * Domain Path:       /languages
+ * Version:           0.0.1
  */
 
 // Exit if this file is not called directly.
@@ -19,7 +13,7 @@
 	}
 
 // Define plugin constants
-	define('GMUJ_VERSION', '1.0.0');
+	define('GMUJ_VERSION', '0.0.1');
 	define('GMUJDOMAIN', 'gmuj-mason-wordpress-plugin-custom-post-types');
 	define('GMUJPATH', plugin_dir_path( __FILE__ ));
 
