@@ -13,7 +13,8 @@
 	}
 
 // Include custom post types definitions
-	require_once(GMUJPATH . '/post-types/register.php');
+	require_once plugin_dir_path( __FILE__ ) . 'post-types/register.php';
+
 
 // Register custom post types
 	// Person
@@ -24,7 +25,7 @@
 		add_action('init', 'gmuj_register_custom_post_type_article');
 
 // Include custom taxonomies  definitions
-	require_once(GMUJPATH . '/taxonomies/register.php');
+	require_once plugin_dir_path( __FILE__ ) . 'taxonomies/register.php';
 
 // Register custom taxonomies
 	// Person 
